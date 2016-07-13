@@ -1,6 +1,6 @@
-##cpp
+#cpp
 
-#Reading string from stdin
+###Reading string from stdin
 ```
 std::getline(std::cin, string)
 ```
