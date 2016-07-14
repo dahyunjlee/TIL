@@ -42,5 +42,5 @@ int main(){
 ###Notes
 Denoting 2D Arrays:
 ```cpp
-array\[**row**\]\[**column**\]
+array\[ **row** \]\[ **column** \]
 ```

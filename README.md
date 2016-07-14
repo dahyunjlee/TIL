@@ -4,4 +4,4 @@
 
 ###Sources
 All coding challenges (those with a **Problem** section) are from
-* [Hackerrank] (www.hackerrank.com)
+* [Hackerrank] (https://www.hackerrank.com/)
