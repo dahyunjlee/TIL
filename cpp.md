@@ -15,7 +15,7 @@ N M S       // T lines with three numbers
 ###Output Format
 Print the ID number of the prisoner who gets the last sweet for every test case.
 
-```
+```cpp
 using namespace std;
 
 int main() {
@@ -51,7 +51,7 @@ i + 4
 d + 4.0
 givenString + s
 
-```
+```cpp
     // Declare second integer, double, and String variables.
     int j = 0;
     double e = 0.;
@@ -71,12 +71,12 @@ givenString + s
 ```
 
 ###NOTES_Reading string from stdin
-```
+```cpp
 std::getline(std::cin, string)
 ```
-* Different from ```istream::getline(input, sizeof(input))``` which uses ```char``` buffers
-* ```getline()``` does not ignore leading whitespace characters. If there is a ```cin >>``` command before this function is called, getline will consider the leading newline character as the end.
-* Resolve by calling ```cin.ignore()```
+* Different from `istream::getline(input, sizeof(input))` which uses `char` buffers
+* `getline()` does not ignore leading whitespace characters. If there is a cin >>` command before this function is called, getline will consider the leading newline character as the end.
+* Resolve by calling `cin.ignore()`
 
 
 ##Plus Minus
@@ -87,7 +87,7 @@ Given an array of integers, calculate which fraction of its elements are positiv
 N       // Size of array
 ...     // Array
 
-```
+```cpp
 int main(){
     int n;
     cin >> n;
@@ -117,23 +117,23 @@ int main(){
 ```
 
 ###NOTES_Printing numbers
-```
+```cpp
 std::setpricision(int n)
 ```
-* ```include <iomanip>```
-* ``` cout << setprecision (2) ``` accounts for the whole number. To specify decimal precision only, also call ```<< std::fixed```
+* `include <iomanip>`
+* ` cout << setprecision (2) ` accounts for the whole number. To specify decimal precision only, also call `<< std::fixed`
 
-```
+```cpp
 printf(%f)
 printf(%.2f)
 ```
-* ```include <cstdio>```
-* f is for ```double``` -- the number tha comes after %. and before f determines the number of decimals
+* `include <cstdio>`
+* f is for `double` -- the number tha comes after %. and before f determines the number of decimals
 
 
 ##Time Conversion
 Change AM/PM format (07:05:45PM) to 24-hour time (19:05:45).
-```
+```cpp
 int main(){
     string time;
     cin >> time;
@@ -165,12 +165,12 @@ int main(){
 ```
 
 ###NOTES_Split string
-```
+```cpp
 string string::substr (size_t pos = 0, size_t len = npos) const;
 size_t string::find (const string& str, size_t pos = 0) const;
 ```
-* ```substr()``` returns a string starting at ```pos``` of length ```len```
-* ```find()``` looks for the occurence of ```str``` starting at position ```pos``` --the function can contain many other arguments the specify the length of search sequence, individual ```char```, etc. Returns the position of the first character of the first match.
-* If no matches were found, ```string::npos``` is returned.
+* `substr()` returns a string starting at `pos` of length `len`
+* `find()` looks for the occurence of `str` starting at position `pos` --the function can contain many other arguments the specify the length of search sequence, individual `char`, etc. Returns the position of the first character of the first match.
+* If no matches were found, `string::npos` is returned.
 
 

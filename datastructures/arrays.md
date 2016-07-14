@@ -8,7 +8,7 @@ a b c
 e f g
 pattern. An hourglass sum is the sum of an hourglass' values. Print the maximum hourglass sum in the given 2D Array.
 
-```
+```cpp
 using namespace std;
 
 int main(){
@@ -41,6 +41,6 @@ int main(){
 
 ###Notes
 Denoting 2D Arrays:
-```
+```cpp
 array[*row*][*column*]
 ```

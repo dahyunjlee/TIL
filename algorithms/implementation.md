@@ -10,7 +10,7 @@ A single line of four space-separated integers denoting the respective values of
 ###Output Format
 Print YES or NO
 
-```
+```cpp
 using namespace std;
 int main(){
     int x1;
@@ -37,7 +37,7 @@ Three stacks of cylinders. Remove some off the top to make the three stacks the 
 n1, n2, n3  // number of cylinders in each stack
             // Three lines describing each cylinder height
 
-```
+```cpp
 using namespace std;
 
 int main(){
@@ -99,7 +99,7 @@ N integers  // lenght of each stick
 ###Output Format
 Print the number of sticks that are cut before each operation.
 
-```
+```cpp
 using namespace std;
 
 int minimum(vector<int>& v, int& n) {
