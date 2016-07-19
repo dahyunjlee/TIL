@@ -73,3 +73,32 @@ Node* Reverse (Node *head)
     return newHead;
 }
 ```
+
+##Merge Sorted List
+###Recursion
+```cpp
+Node* MergeLists(Node *headA, Node* headB)
+{
+    //base case
+    if (!headA || !headB) {
+        if (headA)
+            return headA;
+        if (headB)
+            return headB;
+        return NULL;
+    }
+
+    Node* newHead;
+    // set the next node to the smaller head, then merge the rest
+    if (headA->data < headB->data) {
+        newHead = headA;
+        headA->next = MergeLists(headA->next, headB);
+    }
+    else {
+        newHead = headB;
+        headB->next = MergeLists(headA, headB->next);
+    }
+    return newHead;
+}
+```
+
