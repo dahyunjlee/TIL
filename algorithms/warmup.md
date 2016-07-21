@@ -173,4 +173,3 @@ size_t string::find (const string& str, size_t pos = 0) const;
 * `find()` looks for the occurence of `str` starting at position `pos` --the function can contain many other arguments the specify the length of search sequence, individual `char`, etc. Returns the position of the first character of the first match.
 * If no matches were found, `string::npos` is returned.
 
-

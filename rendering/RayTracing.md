@@ -82,7 +82,7 @@ bool BBox::intersect(const Ray &ray, Intersection &it) {
         }
         else {
             tymin = d*(this->max.y - ray.o.y);
-            tymax = d*(this->max.x - ray.o.y);
+            tymax = d*(this->min.y - ray.o.y);
             if (tymin > tnear) {
                 tnear = tymin;
                 n = Vector (0, 1, 0);
