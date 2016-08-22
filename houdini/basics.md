@@ -28,7 +28,7 @@
     - 4: primitives
     - 5: vertices
 
-    - a + select edge: select edge loop
+    - a + mmb edge: select edge loop
 
 ###Transformation tools
 * Houdini's default translation is in object coordinates. To toggle between object and world: right click >> align handle >> world.
@@ -65,6 +65,8 @@ A tool that gives access in viewport to specialized functionality of whatever to
 * p : toggle parameters window
 * d : toggle display options
 
+* mmb : information about clicked node
+
 ###Contexts
 * objs
 * ch (chops, channel operators)
@@ -84,4 +86,10 @@ A tool that gives access in viewport to specialized functionality of whatever to
 
 ###Parameter view
 * Value Ladder -> MMB on any value
+
+###Object Ghosting
+* "selected" object in Houdini is the object on the network view
+* Can select between show / ghost / hide other objects in the top bar of scene view
+
+
 
