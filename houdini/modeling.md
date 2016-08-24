@@ -12,12 +12,15 @@
 
 ###Polybridge
 * Pairing shift
-* 
+
 **Footings**
 * Reverse Winding
 * Source, destination magnitudes -> how much the curve is pushed 
 
 **Bridge**
+* Local Thickness
+* Twist
+* >> Ramps: control each parameter from source to destination
 
 ###Expressions
 * Paste copied:
